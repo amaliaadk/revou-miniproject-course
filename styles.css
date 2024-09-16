@@ -1,0 +1,114 @@
+/* General Styles */
+.main-header {
+    text-align: center;
+}
+
+.selection-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.selection-btn {
+    height: 32px;
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+}
+
+.pink-color {
+    background-color: rgb(237, 169, 235);
+}
+
+.purple-color {
+    background-color: rgb(209, 152, 255);
+}
+
+/* Form Section Segitiga */
+.luas-segitiga-header {
+    background: rgb(237, 169, 235);
+    text-align: center;
+    padding: 16px;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://asset.kompas.com/crops/2zBG1x88hjbk-HWtB3CGWxu0wcQ=/175x161:1573x1094/375x240/data/photo/2022/03/09/62288763c6d64.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+/* Form Section Jajargenjang */
+.luas-jg-header {
+    background-color: rgb(209, 152, 255);
+    text-align: center;
+    padding: 16px;
+}
+
+.luas-jg-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-jg-img {
+    height: 300px;
+    width: 400px;
+    background-image: url( https://i.pinimg.com/564x/7e/11/16/7e1116b65eab976c92e9592d2f903cbf.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-jg-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    margin: 8px 0;
+}
+
+.input-wrapper label {
+    width: 30%;
+    display: inline-block;
+}
+
+.input-wrapper input {
+    width: 65%;
+    padding: 8px;
+}
+
+button {
+    background-color: #1c2539;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #91aeec;
+}
+
+/* Responsive */
+/* kalo layar mendekati 480px, baru berubah jadi 1 sisi */
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
